@@ -175,15 +175,14 @@ Pour inclure une image, vous pouvez utiliser la syntaxe suivante : `image::scree
 
 Pour écrire au format « code » en AsciiDoc (commandes, code source, requêtes HTTP brutes...), il suffit d'encadrer le texte avec des balises de code (les triple-backticks Markdown sont aussi acceptés en AsciiDoc) :
 
-[source]
-----
+```
 [source]
 ----
 GET /success.txt?ipv4 HTTP/1.1
 Host: detectportal.firefox.com
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101
 ----
-----
+```
 
 Vous ferez des _commits/push_ réguliers avec l'avancement des questions/réponses. Vous vérifierez sur le dépôt GitHub que vos réponses sont bien visibles, lisibles, complètes et correctement formatées, et que les captures d'écran sont claires et bien affichées.
 
